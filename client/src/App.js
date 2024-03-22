@@ -1,6 +1,5 @@
 import './App.css';
 import AppHeader from './Components/AppHeader';
-import {Space} from "antd";
 import SideMenu from './Components/SideMenu';
 import PageContent from './Components/PageContent';
 import AppFooter from './Components/AppFooter';
@@ -25,10 +24,10 @@ function App() {
       <Routes>
         <Route path="/Login" element={<Login/>}></Route>
         <Route path="/Signup" element={<Signup/>}></Route>
-        <Route path="/*"element={<Space className='SideMenuAndPageContent'>
+        <Route path="/*"element={<div className='SideMenuAndPageContent'>
           <SideMenu></SideMenu>
           <PageContent></PageContent>
-        </Space>}></Route>
+        </div>}></Route>
       </Routes>
       <AppFooter/>
     </div>
