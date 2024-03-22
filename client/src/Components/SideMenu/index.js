@@ -32,9 +32,9 @@ function SideMenu() {
                 key:'/ownedland'
             },
             {
-                label:"New Added Land Status",
+                label:"Add Land",
                 icon:<EditFilled />,
-                key:'/newaddedlandstatus'
+                key:'/addland'
             },
             {
                 label:"Land Transaction Status",

@@ -1,0 +1,15 @@
+.table{
+    border-collapse: collapse;
+    width: 80vw;
+}
+.table td, .table th{
+    border: 1px solid rgb(230, 215, 215);
+}
+.table th,.table td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.trow .trow2{
+    padding: 20px;
+}
